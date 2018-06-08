@@ -6,13 +6,17 @@ header{
 	align-items: center;
 	padding-top: 69px;
 	border-bottom: 1px solid seashell;
+}
+
+
+body{
 	font-family: helvetica;
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
-
 }
+
 
 .logo{
 	padding-left: 10px;
@@ -24,4 +28,36 @@ nav{
 	padding-left: 1550px;      
 	align-items: center;
 	text-decoration: underline;
+}
+
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mission{
+	display: inline-flex;
+	justify-content: center;
+    width: 1200px;
+    height: 700px
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+
+}
+
+.tea-con{
+	display: flex;
+	justify-content: center;
+}
+
+.top-imgs{
+	display: flex;
+	height: 200px;
+	width: 300px;
+	justify-content: space-between;
+}
+
+.bottom-imgs{
+	display: flex;
+	height: 200px;
+	width: 300px;
 }
